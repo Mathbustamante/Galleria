@@ -1,0 +1,470 @@
+/* ---------- NavBar ------------- */
+
+.navbar-1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #F1F1F1;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.navbar-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-1 li {
+    padding: 0px;
+    display: inline;
+}
+
+.navbar-1 .title {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.navbar-1 .home-btn{
+    font-size: 13px;
+    float: left;
+    margin-left: 4.66%;
+}
+
+.navbar-1 .cart-btn{
+    font-size: 13px;
+    float: right;
+    margin-right: 4.66%;
+}
+
+.navbar-1 a {
+    color: black;
+}
+
+.navbar-1 a:hover {
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.navbar-2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid #F1F1F1;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-2 li {
+    padding: 20px;
+    display: inline;
+}
+
+.navbar-2 a {
+    color: black;
+}
+
+.navbar-2 a:hover {
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+/* ---------- Body ------------- */
+/* ---------- Banner ------------- */
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1486927819089-e4d82c5e2444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.banner-2 {
+    background-color: black;
+    position: relative;
+    height: 550px;
+
+}
+
+.merge-box{
+    margin-top: -440px;
+    padding-bottom: 111px;
+    z-index: 10;
+    position: relative;
+}
+
+.merge-box .text-box{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 338px;
+    height: 330px;
+    color: white;
+}
+
+.merge-box .text-box h1{
+    font-weight: 500;
+}
+
+.merge-box .link{
+    margin-top: 50px;
+}
+
+.merge-box .text-box span{
+    padding-top: 50px;
+    color: white;
+}
+
+.merge-box .text-box span:hover {
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.who-we-are{
+    font-family: 'Raleway', sans-serif;
+    /* background-image: url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+    text-align: center;
+}
+
+.who-we-are .icons{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.who-we-are .add-info{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.who-we-are .data{
+    padding-top: 20px;
+}
+
+.product-list{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    height: auto;
+    background-color: #303536;  
+}
+
+.product-list h1{
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 800; 
+}
+
+.card-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.division {
+    width: 30%;
+    flex: 0 0 30%;
+    margin: 1% 1.5%;
+}
+
+.product-list{
+    padding-bottom: 50px;
+}
+
+.product-list .product-box{
+    border-radius: 10px;
+}
+
+.product-list .info-box{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.product-list .info-box p {
+    font-weight: 500;
+}
+
+.product-list .image-box{
+    width: 100%;
+    height: 289px;
+}
+
+.product-list img{
+    border-radius: 5px;
+    box-shadow: 0 5px 25px 0 rgba(0,0,0,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.product-list .image-layer{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+}
+
+.start-now{
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.start-now .text-box{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 338px;
+    height: 150px;
+    color: black;
+}
+
+.footer{
+    height: 10px;
+    background-color: #303536;
+}
+
+.category-box{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.category-box h1 {
+    font-size: 23px;
+    padding-bottom: 50px;
+    font-weight: 800;
+}
+
+/* ------------ Toys ------------- */
+.banner-toys {
+    background-image: url("https://images.unsplash.com/photo-1535572290543-960a8046f5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* ------------ Fashion ------------- */
+.banner-fashion {
+    background-image: url("https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* ------------ Craft ------------- */
+.banner-craft {
+    background-image: url("https://images.unsplash.com/photo-1497219055242-93359eeed651?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2791&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* ------------ AboutUS ------------- */
+.banner-aboutus {
+    background-image: url("https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* ------------ Product Detail ------------- */
+.product-container{
+    padding-top: 50px;
+}
+
+.product-detail{
+    font-family: 'Raleway', sans-serif;
+    height: 400px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.product-detail h4{
+    color: black;
+}
+
+.product-detail button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+
+
+.image-detail{
+    max-height: 500px;
+}
+
+.product-category{
+    font-family: 'Raleway', sans-serif; 
+}
+
+.product-category h1{
+    font-size: 25px;
+    padding-left: 56px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.product-category ul {
+    margin-left: 80px;
+    padding: 0;
+}
+
+.product-category li {
+    padding: 0px;
+}
+
+.product-category li a {
+    color: black;
+}
+
+.extra-options{
+    margin-left: 0px;
+}
+
+.extra-options .title{
+    font-family: 'Raleway', sans-serif;
+    
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+.extra-options .title h1{
+    font-size: 25px;
+    padding-left: 56px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.extra-options ul {
+    margin-left: 80px;
+    padding: 0;
+}
+
+.extra-options li {
+    padding: 0px;
+}
+
+.extra-options li img{
+    padding: 0px;
+}
+
+.extra-options li a{
+    color: black;
+    font-size: 15px;
+}
+
+.shipping-info{
+    text-align: justify;
+   
+}
+
+.shipping-info .title{
+    font-family: 'Raleway', sans-serif;
+    
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+.shipping-info .title h1{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+
+
+/* ------------ New Product ----- */
+
+.post-form{
+    width: 330px;
+    margin: 62px auto;
+}
+
+.post-form .btn{
+    background-color: black;
+    color: white;
+}
+
+
+/* ------- About Us ----- */
+.aboutus{
+    width: 430px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+}
+
+.aboutus h1{
+    font-size: 23px;
+    padding-bottom: 50px;
+    font-weight: 800;
+}
+
